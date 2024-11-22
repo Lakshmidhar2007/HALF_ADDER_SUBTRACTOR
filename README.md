@@ -56,6 +56,22 @@ Figure -02 HALF Subtractor
 
 Developed by: LAKSHMIDHAR  N RegisterNumber: 24900046*/
 
+   module exp3(a,b,cy,sm,df,bo);
+   
+   input a,b;
+   
+   output sm,cy,df,bo;
+   
+   xor(sm,a,b);
+   
+   and(cy,a,b);
+   
+   xor (df,a,b);
+   
+   and(bo,~a,b);
+   
+   endmodule
+
 **RTL Schematic**
 ![Screenshot (37)](https://github.com/user-attachments/assets/7bad8c5b-7ddf-492c-8145-51e0d036fcda)
 
