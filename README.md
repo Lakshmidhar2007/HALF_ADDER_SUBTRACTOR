@@ -58,7 +58,7 @@ Program to design a half adder and full adder circuit and verify its truth table
 ## Developed by: LAKSHMIDHAR  N 
 ## RegisterNumber: 24900046
 
-     module exp3(a,b,cy,sm,df,bo);
+     module exp3(a,b,carry,sum,df,bo);
      
      input a,b;
      
