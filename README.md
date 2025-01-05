@@ -62,15 +62,15 @@ Program to design a half adder and full adder circuit and verify its truth table
      
      input a,b;
      
-     output sm,cy,df,bo;
+     output sum,carry,diff,borrow;
      
-     xor(sm,a,b);
+     xor(sum,a,b);
      
-     and(cy,a,b);
+     and(carry,a,b);
      
-     xor (df,a,b);
+     xor (diff,a,b);
      
-     and(bo,~a,b);
+     and(borrow,~a,b);
      
      endmodule
 
